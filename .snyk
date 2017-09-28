@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - father > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - father > exists-case > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-client > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-webpack > spm-client > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-webpack-server > spm-webpack > spm-client > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-webpack-server > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-webpack-server > tiny-lr > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+    - spm-webpack-server > koa-serve-index > debug:
+        patched: '2017-09-28T04:16:17.118Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2017-09-28T04:16:17.118Z'
