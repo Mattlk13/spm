@@ -61,7 +61,7 @@
     "spm-webpack": "~1.0.0",
     "spm-webpack-server": "~1.0.0",
     "spmrc": "~1.2.0",
-    "tar": "~1.0.3",
+    "tar": "~2.2.2",
     "test-console": "~0.7.1",
     "through2": "~2.0.0",
     "uniq": "~1.0.1",
